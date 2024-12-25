@@ -1,0 +1,21 @@
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #777;
+    font-family: Arial, sans-serif;
+    border: 1px solid #777; /* Adds the outline */
+    padding: 5px;
+    border-radius: 5px; /* Rounds the corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a semi-transparent background */
+}
+
+footer a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Removes underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
